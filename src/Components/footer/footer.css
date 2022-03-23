@@ -1,0 +1,129 @@
+.footer__container{
+    display: flex;
+    background-color: #efefef;
+}
+
+.footer__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__instagram{
+    margin-right: 20px;
+    width: 33.33%;
+    height: 100%;
+}
+
+.footer__instagram h3{
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+}
+
+.footer-instagram-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer-instagram-img img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.footer__links{
+    margin-right: 20px;
+    width: 33.33%;
+    height: 100%;
+}
+
+.footer__links h3{
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;  
+}
+
+.footer__links ul{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer__links ul li{
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #efba6c;
+    cursor: pointer;
+}
+
+.footer__email{
+    margin-right: 20px;
+    width: 33.33%;
+    height: 100%;
+}
+
+.footer__email h3{
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: "Work Sans", sans-serif;
+    text-align: center; 
+}
+
+.footer_email-detail{
+    width: 100%;
+}
+
+.footer_email-detail h4{
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: "Work Sans", sans-serif;
+    text-align: left; 
+}
+
+.footer_email-detail .email_data{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.footer_email-detail .email_button{
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #efba6c;
+    border: none;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.footer_email-detail p{
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "Work Sans", sans-serif;
+    text-align: left;
+    padding-top: 10px; 
+}
+
+.heart-icon{
+    color: #d9534f;
+}
