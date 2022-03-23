@@ -9,6 +9,7 @@ import Journey from './Components/journey/Journey';
 import Team from './Components/team/Team';
 import Testimony from './Components/testimony/Testimony';
 import Blog from './Components/blog/Blog';
+import Join from './Components/join-team/Join';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
      <Router>
       <Navbar/>
         <Routes>
-            <Route path="/" element={[<Home />,<Story/>,<Journey/>,<Team/>,<Testimony/>,<Blog/>]} />
+            <Route path="/" element={[<Home />,<Story/>,<Journey/>,<Team/>,<Testimony/>,<Blog/>,<Join/>]} />
         </Routes>
      </Router>
         
