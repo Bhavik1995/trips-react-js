@@ -1,0 +1,39 @@
+.navbar__container{
+    display: flex;
+}
+
+.navbar__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+   
+}
+
+.navbar__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+}
+
+.navbar__links .tab{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar__links .tab:hover, .tab:active{
+    color: #efba6c !important;
+}
+
+
+
+
+
+

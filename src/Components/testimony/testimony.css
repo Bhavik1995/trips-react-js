@@ -1,0 +1,120 @@
+.testimony__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.testimony__heading{
+  max-width: 58.33333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.testimony__heading .testimony__heading-main{
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    z-index: -1;
+    font-weight: 900;
+    font-size: 5rem;
+    color: #efefef;
+  
+}
+
+.testimony__heading .testimony__sub-heading{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    color: #efba6c;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.testimony__heading h3{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.testimony__image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 10rem;
+}
+
+.testimony__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony__details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: #efba6c;
+    margin-right: 20px;
+    border-radius: 5px;
+    
+}
+
+.testimony__data-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 60px;
+}
+
+.testimony__data-image img{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+
+.testimony__data-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    height: 300px;
+    margin: 10px;
+}
+
+.testimony__data-details h3{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2rem;
+}
+
+.testimony__data-details h4{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;  
+}
+
+

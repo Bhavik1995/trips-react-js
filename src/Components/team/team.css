@@ -1,0 +1,140 @@
+.team__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.team__heading{
+  max-width: 58.33333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.team__heading .team__heading-main{
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    z-index: -1;
+    font-weight: 900;
+    font-size: 5rem;
+    color: #efefef;
+  
+}
+
+.team__heading .team__sub-heading{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    color: #efba6c;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.team__heading h3{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.team__image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 10rem;
+}
+
+/* .team-image:last-child{
+    margin: 0;
+} */
+
+.team__image .team-images{
+    width: 100%;
+    height: 100%;
+    margin-right: 80px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+
+.team__image .team-images:last-child{
+    margin: 0;
+}
+
+.team__image .team-images img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.team-images .person_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.person_details .team_member_name{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px;
+  
+}
+
+.person_details .team_member_desg{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #888;
+    letter-spacing: .1rem;
+    margin: 0;
+  
+}
+
+.person_details .desc{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+ 
+}
+
+.social-media-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social-media{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(239, 186, 108, 0.2);
+    position: relative;
+    margin-right: 10px;
+    
+}
+
+.team-images .social-media span{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: #efba6c;
+}
