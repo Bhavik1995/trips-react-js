@@ -2,16 +2,13 @@ import React from 'react';
 import './home.css';
 
 import {BsPlayFill} from 'react-icons/bs';
-
-
-import banner_img from '../../images/hero_1.jpg'
+import background from '../../images/hero_1.jpg';
 
 const Home = () => {
   return (
     <>
-      <div className='banner__container'>
-          <div className='banner__image'>
-              <img src={banner_img} alt="banner_image"/>
+      <div className='banner__container banner__image' style={{backgroundImage:`url(${background})` }}>
+         
               {/* <h3 className='banner__text'>Let's Enjoy The Wonders of Nature</h3> */}
 
               <div className='banner__text'>
@@ -23,9 +20,6 @@ const Home = () => {
                     <p>Watch the video</p>
                   </div>
               </div>
-          </div>
-
-
       </div>
     </>
   )
