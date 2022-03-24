@@ -19,8 +19,7 @@
     right: 0;
     bottom: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.3);
-   
+    background: rgba(0, 0, 0, 0.3); 
 }
 
 
@@ -32,19 +31,20 @@
 }
 
 .banner__text h1{
-    color: white !important;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-    font-size: 40px;
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 900;
 }
 
 .banner__text p{
-    color: white;
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
-    font-weight: 500;
+    color: #fff;
+    line-height: 1.7;
+    font-weight: 300;
 }
-
 
 .banner__text .button__section .play_button{
     border-radius: 50%;
