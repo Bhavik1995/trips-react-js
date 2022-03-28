@@ -9,6 +9,8 @@ import image_4 from '../../images/img_4.jpg';
 import image_5 from '../../images/img_5.jpg';
 import image_6 from '../../images/img_6.jpg';
 
+import {FadeIn} from "react-lazyload-fadein";
+
 import {Link} from 'react-router-dom';
 
 
@@ -22,38 +24,37 @@ const Journey = () => {
                 <h3>Your Journey Starts Here</h3>
             </div>
 
+          
             <div className='journey__image'>
-                <div className='journey-images'>
-                    <img src={image_1} alt="journey_image_1"/>
-
-                    <div className='journey-content'>
-                        <button className='button-1'><Link to="/"/>$200.00</button>
-                        <h2>Dignissimos debitis</h2>
+                
+                    <div className='journey-images'>      
+                        <img src={image_1} alt="journey_image_1"/>
+                        <div className='journey-content'>
+                            <button className='button-1'><Link to="/"/>$200.00</button>
+                            <h2>Dignissimos debitis</h2>
+                        </div>
                     </div>
-                </div>
 
-                {/* <div className='journey-content'>
-                   
-                </div> */}
+                    <div className='journey-images'>
+                        <img src={image_2} alt="journey_image_2"/>
 
-                <div className='journey-images'>
-                    <img src={image_2} alt="journey_image_2"/>
-
-                    <div className='journey-content'>
-                        <button className='button-1'><Link to="/"/>$390.00</button>
-                        <h2>Consectetur adipisicing</h2>
+                        <div className='journey-content'>
+                            <button className='button-1'><Link to="/"/>$390.00</button>
+                            <h2>Consectetur adipisicing</h2>
+                        </div>
                     </div>
-                </div>
 
-                <div className='journey-images'>
-                    <img src={image_3} alt="journey_image_3"/>
+                    <div className='journey-images'>
+                        <img src={image_3} alt="journey_image_3"/>
 
-                    <div className='journey-content'>
-                        <button className='button-1'><Link to="/"/>$180.00</button>
-                        <h2>Temporibus aperiam</h2>
+                        <div className='journey-content'>
+                            <button className='button-1'><Link to="/"/>$180.00</button>
+                            <h2>Temporibus aperiam</h2>
+                        </div>
                     </div>
-                </div>
+                
             </div>
+       
 
             <div className='journey__image'>
                 <div className='journey-images'>
