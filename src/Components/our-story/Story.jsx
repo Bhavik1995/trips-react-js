@@ -3,6 +3,8 @@ import './story.css';
 
 import travel_image from '../../images/traveler.jpg';
 
+import LazyLoad from './LazyLoad';
+
 const Story = () => {
   return (
     <>
@@ -17,7 +19,9 @@ const Story = () => {
 
            
            <div className='story__image'>
-               <img src={travel_image} alt="story_image"/>
+              <LazyLoad>
+                  <img src={travel_image} alt="story_image"/>
+              </LazyLoad>
            </div>
         </div>
     </>
