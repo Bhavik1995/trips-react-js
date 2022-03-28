@@ -26,15 +26,14 @@ const Journey = () => {
 
           
             <div className='journey__image'>
-                
-                    <div className='journey-images'>      
+                   <div className='journey-images'>      
                         <img src={image_1} alt="journey_image_1"/>
                         <div className='journey-content'>
                             <button className='button-1'><Link to="/"/>$200.00</button>
                             <h2>Dignissimos debitis</h2>
                         </div>
                     </div>
-
+    
                     <div className='journey-images'>
                         <img src={image_2} alt="journey_image_2"/>
 
